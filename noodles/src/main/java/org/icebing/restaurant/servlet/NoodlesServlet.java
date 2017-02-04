@@ -27,6 +27,7 @@ public class NoodlesServlet extends HttpServlet{
 			logger.error("Vegetable virtual =" + vegetable);
 		} else {
 			logger.debug("Vegetable real =" + vegetable);
+			logger.warn("Vegetable virtual =" + vegetable);
 			logger.error("Vegetable virtual =" + vegetable);
 		}
 		pWriter.println("<html><body>");
